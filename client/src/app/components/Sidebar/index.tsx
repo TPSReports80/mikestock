@@ -52,9 +52,7 @@ const SidebarLink = ({
   );
 };
 
-type Props = {};
-
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
   const dispatch = useAppDispatch();
   const isSidebarCollapsed = useAppSelector(
     (state) => state.global.isSidebarCollapsed

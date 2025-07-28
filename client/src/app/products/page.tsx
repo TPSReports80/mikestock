@@ -71,7 +71,7 @@ const Products = () => {
         {isLoading ? (
           <div>Loading...</div>
         ) : (
-          products?.map((product, i) => (
+          products?.map((product) => (
             <div
               key={product.productId}
               className="border shadow rounded-md p-4 max-w-full w-full mx-auto"

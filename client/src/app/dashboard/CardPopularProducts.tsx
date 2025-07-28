@@ -16,7 +16,7 @@ const CardPopularProducts = () => {
           </h3>
           <hr />
           <div className="overflow-auto h-full">
-            {dashboardData?.popularProducts.map((product, i) => (
+            {dashboardData?.popularProducts.map((product) => (
               <div
                 key={product.productId}
                 className="flex items-center justify-between gap-3 px-5 py-7 border-b"
