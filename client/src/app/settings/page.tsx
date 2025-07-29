@@ -85,7 +85,7 @@ const Settings = () => {
                   ) : (
                     <input
                       type="text"
-                      className="px-4 py-2 border rounded-lg text-gray-500 focus:outline-none focus:border-blue-500"
+                      className="px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 dark:bg-white bg-gray-800 dark:text-gray-900 text-gray-100"
                       value={setting.value as string}
                       onChange={(e) => {
                         const settingsCopy = [...userSettings];
